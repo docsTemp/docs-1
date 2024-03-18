@@ -1,91 +1,138 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation culture générale",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#9563FF",
+    "light": "#AE87FF",
+    "dark": "#0D001D",
+    "background": {
+      "dark": "#090014"
+    },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF7F57",
+      "to": "#9563FF"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+  "api": {
+    "playground": {
+      "mode": "hide"
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Contrat d'apprentissage",
+      "url": "contrat-apprentissage"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Entreprise",
+      "url": "entreprise"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Diagramme",
+      "url": "diagramme"
+    },
+    {
+      "name": "Correspondance",
+      "url": "correspondance"
+    },
+    {
+      "name": "Droit",
+      "url": "droit"
+    },
+    {
+      "name": "Personnes",
+      "url": "personnes"
+    },
+    {
+      "name": "Association",
+      "url": "association"
+    },
+    {
+      "name": "Commune",
+      "url": "commune"
+    },
+    {
+      "name": "Propriété intellectuelle",
+      "url": "propriete-intellectuelle"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Contrat d'apprentissage",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "contrat-apprentissage/contrat-en-general",
+        "contrat-apprentissage/definition",
+        "contrat-apprentissage/obligations",
+        "contrat-apprentissage/clauses"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Entreprise",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "entreprise/definition",
+        "entreprise/personne",
+        "entreprise/capitaux",
+        "entreprise/bilan",
+        "entreprise/mots-clefs"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Diagramme",
       "pages": [
-        "api-reference/introduction"
+        "diagramme/sectoriel",
+        "diagramme/histogramme",
+        "diagramme/courbes"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Correspondance",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "correspondance/correspondance"
+      ]
+    },
+    {
+      "group": "Droit",
+      "pages": [
+        "droit/definition",
+        "droit/vocabulaire",
+        "droit/types"
+      ]
+    },
+    {
+      "group": "Personnes",
+      "pages": [
+        "personnes/definition"
+      ]
+    },
+    {
+      "group": "Association",
+      "pages": [
+        "association/definition",
+        "association/organes"
+      ]
+    },
+    {
+      "group": "Commune",
+      "pages": [
+        "commune/definition"
+      ]
+    },
+    {
+      "group": "Propriété intellectuelle",
+      "pages": [
+        "propriete-intellectuelle/definition",
+        "propriete-intellectuelle/durees",
+        "propriete-intellectuelle/aop",
+        "propriete-intellectuelle/igp"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/Matthiasbrat/docs"
   }
 }
